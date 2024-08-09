@@ -1,46 +1,37 @@
-programa // AULA 04- COMANDO DE ENTRADA
+programa // OPERADORES ARITIMETICOS 
 {
 	
-	funcao inicio() //CADASTRO DE CLIENTES 
+	funcao inicio()
 	{
-		//VARIÁVEIS
-		cadeia nome
-		inteiro idade 
-		real altura
-		cadeia endereco 
+		//DECLARAÇÃO DE VARIÁVEIS 
+		real valor1, valor2, valor3, total
 
+		//COMANDOS DE ENTRADA 
+		escreva("----- CALCULADORA DE SOMA -----")
+		escreva("Digite o valor 1: ")
+		leia(valor1)
+		escreva("Digite o valor 2: ")
+		leia(valor2)
+		escreva("Digite o valor 3: ")
+		leia(valor3)
 
-	     // COMANDOS DE ENTRADA 
-	}    escreva("******* CADASTRO DE CLIENTES *******")_
-	     escreva("\n Digite seu nome: ")
-	     leia (nome)
-	     escreva("\n Digite sua idade: ")
-	     leia (idade)
-	     escreva("\n Digite seu cpf: ")
-	     leia (cpf)
-	     escreva("\n Digite sua altura: ")
-	     leia (altura) 
-	     escreva("\n Digite seu endereço: ")
-          leia (endereco)
+		total = valor1 + valor2 + valor3 
 
+		// COMANDO DE SAÍDA
 
-          escreva ("\n ----COMPROVANTE DE INSCRIÇÃO ----")
-          escreva("\n Nome: ", nome)
-          escreva("\n Idade: ", idade)
-          escreva("\n Cpf: ", cpf)
-          escreva("\n Altura: ", altura)
-          escreva("\n Endereço: ", endereco)
-
-	     
-	
-	
+		escreva("\n -------- RESULTADO --------")
+		escreva("\n valor 1 ", valor1)
+		escreva("\n valor 2 ", valor2)
+		escreva("\n valor 3 ", valor3)
+	     escreva("\n valor A soma destes valores é: ",total)
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 565; 
+ * @POSICAO-CURSOR = 605; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
